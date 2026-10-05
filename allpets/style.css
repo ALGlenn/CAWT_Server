@@ -1,0 +1,102 @@
+        body {
+            font-family: arial, sans-serif;
+            font-size: 100%;
+            min-height: 100vh;
+            margin: 0;
+            background:
+                url(images/bg_top.jpg) left top repeat-x,
+                url(images/bg_bottom.jpg) left bottom repeat-x;
+        }
+
+        /* outer container */
+
+        #wrapper {
+            width: 960px;
+            margin: 50px auto;
+            padding: 0px;
+            background-color: rgb(255, 255, 255, 0.6);
+            /* white */
+            border: 1px solid #000;
+            /* black */
+            border-radius: 10px;
+            box-shadow: 7px 7px #888;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background: rgb(175, 196, 206);
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ebf1f6+4,abd3ee+27,89c3eb+70,d5ebfb+100 */
+            background: linear-gradient(to bottom, #ebf1f6 4%, #abd3ee 27%, #89c3eb 70%, #d5ebfb 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+        nav li {
+            display: inline-block;
+
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px;
+        }
+
+
+        address figure {
+            text-align: center;
+        }
+
+        p {
+            padding: 15px 25px;
+        }
+
+        section {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            border-bottom: dashed;
+
+        }
+
+        aside {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: dashed;
+        }
+
+        footer {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .shadow-image {
+            border-radius: 25px;
+            box-shadow: 5px 5px #24b0c5;
+        }
+
+        .icons_social {
+            border-radius: 25px;
+            outline: 2px solid;
+        }
+
+        .Testimonials {
+            background-image: url(images/icon_testimonials.jpg);
+            background-repeat: no-repeat;
+            background-position: left-center;
+            padding-left: 30px;
+        }
+
+        .contact {
+            background-image: url(images/icon_contact.jpg);
+            background-repeat: no-repeat;
+            background-position: left-center;
+            padding-left: 30px;
+        }
