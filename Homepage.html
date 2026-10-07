@@ -8,30 +8,32 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Eater&family=Fredericka+the+Great&family=Fruktur:ital@0;1&family=Mystery+Quest&display=swap');
 
-
-
-        /* Global styles */
+        /* Global */
         body {
-            background-color: rgb(38, 178, 202);
+            background-color: rgb(80 235 232);
             font-family: Mystery Quest;
             color: #000;
             text-align: center;
         }
 
-        /* Header */
-        h1 {
+        /* Headings */
+        h1,
+        h2 {
             font-family: Fredericka the Great;
             color: darkgreen;
             font-weight: bold;
             border-bottom: solid;
         }
 
-        /* Optional utility class */
-        .centered-header {
-            text-align: center;
+        h3 {
+            color: #2e450a;
         }
 
         /* Navigation */
+        nav {
+            background: linear-gradient(#b2f04f, #7eaabd);
+        }
+
         nav a {
             color: #50260a;
             text-decoration: none;
@@ -40,7 +42,6 @@
 
         nav a:hover {
             color: #e9d70d;
-            /* hover color */
             text-decoration: underline;
         }
 
@@ -48,11 +49,17 @@
             list-style-position: inside;
         }
 
+        /* Utility */
+        .centered-header {
+            text-align: center;
+        }
+
+        /* Boxes & Images */
         .box {
             border: 2px solid #4a4a4a;
             padding: 15px;
             border-radius: 10px;
-            background: rgb(107 142 35);
+            background: rgb(178 240 79);
             margin-bottom: 12px;
         }
 
@@ -61,21 +68,26 @@
             border-radius: 15px;
         }
 
-        h2 {
-            font-family: Fredericka the Great, sans sans-serif;
-            color: darkgreen;
-            border-bottom: solid;
-            font-weight: bold;
-        }
-
         .img2 {
             box-shadow: 5px 5px;
             outline-style: groove;
             outline-color: chartreuse;
             margin-bottom: 45px;
         }
-    </style>
 
+        /* Lists */
+        .list-block {
+            border-radius: 25px;
+            border: 2px solid;
+            padding: 15px;
+            margin-bottom: 12px;
+            background-color: #f0e443;
+        }
+
+        ul {
+            list-style-type: lower-roman;
+        }
+    </style>
 </head>
 
 <body>
@@ -101,6 +113,11 @@
 
 
     <section class="box">
+        <h2>Not a single Method</h2>
+
+        <p>Regenerative agriculture is not a fixed recipe — practices are tailored to local climate, soil, and farm
+            goals. Its a framework for making the land, community, and business healthier year after year</p>
+
         <p>Regenerative agriculture is a conservation and rehabilitation approach to food and farming systems. It
             focuses on topsoil regeneration, increasing biodiversity, enhancing ecosystem services, supporting
             biosequestration, increasing resilience to climate change, and strengthening the health and vitality of farm
@@ -114,42 +131,54 @@
     </section>
 
     <section class="p2">
-        <h2>Not a Single Method</h2>
-        <p>
-            Regenerative agriculture is not a fixed recipe — practices are tailored to local climate, soil, and farm
-            goals. Its a framework for making the land, community, and business healthier year after year.
-
-        <ul>
+        <div class="list-block">
             <h3>Core Principles</h3>
-            <li>Improves soil health through minimal disturbance, organic matter addition, and living roots in the
-                ground</li>
-            <li>Boosts biodiversity by integrating diverse crops, trees, and animals</li>
-            <li>Enhances resilience to climate change and farm stressors</li>
-            <li>Supports carbon sequestration by storing CO₂ in soil and vegetation</li>
-            <li>Reduces reliance on synthetic inputs while still using them where necessary</li>
-        </ul>
+            <ul>
+                <li>Improves soil health through minimal disturbance, organic matter addition, and living roots in the
+                    ground</li>
 
+                <li>Boosts biodiversity by integrating diverse crops, trees, and animals</li>
 
-        <ul>
+                <li>Enhances resilience to climate change and farm stressors</li>
+
+                <li>Supports carbon sequestration by storing CO₂ in soil and vegetation</li>
+
+                <li>Reduces reliance on synthetic inputs while still using them where necessary</li>
+            </ul>
+
+        </div>
+
+        <div class="list-block">
             <h3>Key Practices</h3>
-            <li>Minimizing soil disturbance (no-till, direct drilling, no-dig)</li>
-            <li>Cover cropping and diverse rotations to protect soil and add nutrients</li>
-            <li>Integrating livestock through adaptive grazing or pasture diversity</li>
-            <li>Agroforestry and tree planting for habitat and carbon storage</li>
-            <li>Composting and organic amendments to enrich soil</li>
-            <li>Mulching and sheet mulching to suppress weeds and retain moisture</li>
-        </ul>
+            <ul>
+                <li>Minimizing soil disturbance (no-till, direct drilling, no-dig)</li>
 
+                <li>Cover cropping and diverse rotations to protect soil and add nutrients</li>
 
-        <ul>
+                <li>Integrating livestock through adaptive grazing or pasture diversity</li>
+
+                <li>Agroforestry and tree planting for habitat and carbon storage</li>
+
+                <li>Composting and organic amendments to enrich soil</li>
+
+                <li>Mulching and sheet mulching to suppress weeds and retain moisture</li>
+            </ul>
+
+        </div>
+
+        <div class="list-block">
             <h3>Why It Matters</h3>
-            <li>Addresses soil degradation affecting over half of the worlds farmland</li>
-            <li>Can reduce greenhouse gas emissions from agriculture if scaled globally</li>
-            <li>Supports long-term farm profitability and ecosystem health</li>
-            <li>Combines indigenous knowledge with modern science for sustainable outcomes</li>
-        </ul>
+            <ul>
+                <li>Addresses soil degradation affecting over half of the world’s farmland</li>
 
-        </p>
+                <li>Can reduce greenhouse gas emissions from agriculture if scaled globally</li>
+
+                <li>Supports long-term farm profitability and ecosystem health</li>
+
+                Combines indigenous knowledge with modern science for sustainable outcomes
+            </ul>
+
+        </div>
 
     </section>
 
