@@ -38,3 +38,19 @@
             margin-bottom: 25px;
             background-color: #b5dceb;
         }
+
+        textarea {
+            margin: 20px;
+        }
+
+        #subject {
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        #message {
+            padding-top: 5px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
