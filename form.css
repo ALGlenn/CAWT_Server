@@ -1,0 +1,40 @@
+        .pi {
+            border-bottom: 1px dotted;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        .md {
+            border-bottom: 1px dotted;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            border-radius: 15px;
+            border: 1px solid;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        h2 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            border-bottom: 2px dotted;
+        }
+
+        .box1 {
+            border-radius: 10px;
+            border-color: blue;
+            margin-bottom: 25px;
+            background-color:
+                #b5dceb;
+        }
+
+        .box2 {
+            border-radius: 10px;
+            border-color: blue;
+            margin-bottom: 25px;
+            background-color: #b5dceb;
+        }
