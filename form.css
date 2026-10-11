@@ -1,13 +1,22 @@
         .pi {
             border-bottom: 1px dotted;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             font-weight: bold;
+            text-align: center;
         }
 
         .md {
             border-bottom: 1px dotted;
             margin-bottom: 25px;
             font-weight: bold;
+            text-align: center;
+        }
+
+        .rye {
+            border-bottom: 1px dotted;
+            margin-bottom: 25px;
+            font-weight: bold;
+            text-align: center;
         }
 
         input[type="submit"],
@@ -18,7 +27,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
         }
 
-        h2 {
+        h1 {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
             border-bottom: 2px dotted;
@@ -30,6 +39,29 @@
             margin-bottom: 25px;
             background-color:
                 #b5dceb;
+        }
+
+        .rate {
+            border-radius: 10px;
+            border-color: blue;
+            margin-bottom: 25px;
+            background-color:
+                #b5dceb;
+        }
+
+
+        label,
+        input {
+            display: block;
+        }
+
+        input {
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        label {
+            margin: bottom 10px;
         }
 
         .box2 {
