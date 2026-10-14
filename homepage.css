@@ -1,0 +1,90 @@
+        @import url('https://fonts.googleapis.com/css2?family=Eater&family=Fredericka+the+Great&family=Fruktur:ital@0;1&family=Mystery+Quest&display=swap');
+
+        /* Global */
+        body {
+            background-color: rgb(80 235 232);
+            font-family: Mystery Quest;
+            color: #000;
+            text-align: center;
+        }
+
+        /* Headings */
+        h1,
+        h2 {
+            font-family: Eater;
+            color: darkgreen;
+            font-weight: bold;
+            border-bottom: solid;
+        }
+
+        h3 {
+            color: #2e450a;
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(#b2f04f, #7eaabd);
+        }
+
+        nav a {
+            color: #50260a;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            color: #e9d70d;
+            text-decoration: underline;
+        }
+
+        nav ul {
+            list-style-position: inside;
+        }
+
+        /* Utility */
+        .centered-header {
+            text-align: center;
+        }
+
+        /* Boxes & Images */
+        .box {
+            border: 2px solid #4a4a4a;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgb(178 240 79);
+            margin-bottom: 12px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .image-container img {
+            max-width: 48%;
+            height: auto;
+            display: block;
+        }
+
+        .img2 {
+            box-shadow: 5px 5px;
+            outline-style: groove;
+            outline-color: chartreuse;
+            margin-bottom: 45px;
+        }
+
+        /* Lists */
+        .list-block {
+            border-radius: 25px;
+            border: 2px solid;
+            padding: 15px;
+            margin-bottom: 12px;
+            background-color: #f0e443;
+        }
+
+        ul {
+            list-style-type: lower-roman;
+        }

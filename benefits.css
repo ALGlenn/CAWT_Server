@@ -1,0 +1,68 @@
+        @import url('https://fonts.googleapis.com/css2?family=Eater&family=Fredericka+the+Great&family=Fruktur:ital@0;1&family=Mystery+Quest&display=swap');
+
+        /* Header */
+        h1 {
+            font-family: Eater, sans-serif;
+            color: #2e450a;
+            border: 3px inset;
+            border-radius: 8px;
+            background-color: #f0e443;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Mystery Quest, sans-serif;
+            color: black;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 30%;
+            padding: 20px;
+            background-color: #f7a100;
+            border-radius: 8px;
+        }
+
+        main {
+            width: 65%;
+            padding: 20px;
+            background-color: #0d911d;
+            border-radius: 8px;
+        }
+
+        /* Navigation */
+        nav a {
+            color: #2e450a;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            color: #ddff19;
+            text-decoration: underline;
+        }
+
+        nav {
+            background: linear-gradient(#b2f04f, #7eaabd);
+        }
+
+        /* Lists */
+        nav ul {
+            list-style-position: inside;
+        }
+
+        ul {
+            list-style-type: lower-roman;
+        }
+
+        /* Boxes & Images */
+        img {
+            border: 3px solid;
+            border-radius: 15px;
+        }

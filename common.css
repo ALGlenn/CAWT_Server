@@ -1,0 +1,112 @@
+        @import url('https://fonts.googleapis.com/css2?family=Eater&family=Fredericka+the+Great&family=Fruktur:ital@0;1&family=Mystery+Quest&display=swap');
+
+
+        /* Headings */
+        h1 {
+            font-family: Eater;
+            text-align: center;
+            color: #2e450a;
+            border-bottom: 1px solid;
+        }
+
+        h3 {
+            font-family: Eater;
+            color: #2e450a;
+            border-color: #0d911d;
+            border-style: inset;
+        }
+
+        /* Boxes & Images */
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .b1 {
+            background-image: url(images/Eco\ Friendly\ icon.png);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            border: 1px solid;
+            padding-left: 65px;
+            margin: 10px;
+
+        }
+
+        .b2 {
+            background-image: url(images/recycling\ triangle.png);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            border: 1px solid;
+            padding-left: 65px;
+            margin: 10px;
+
+        }
+
+        .b3 {
+            background-image: url(images/Eco\ Friendly\ icon.png);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            border: 1px solid;
+            padding-left: 65px;
+            margin: 10px;
+
+        }
+
+        .b4 {
+            background-image: url(images/recycling\ triangle.png);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            border: 1px solid;
+            padding-left: 65px;
+            margin: 10px;
+
+        }
+
+        .b5 {
+
+            background-image: url(images/Eco\ Friendly\ icon.png);
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+            border: 1px solid;
+            padding-left: 65px;
+            margin: 10px;
+        }
+
+        /* Navigation */
+        nav a:hover {
+            color: #8f4f25;
+            text-decoration: underline;
+        }
+
+        nav a {
+            color: #0d911d;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav {
+            background: linear-gradient(#b2f04f, #7eaabd);
+        }
+
+        /*lists*/
+        nav ul {
+            list-style-position: inside;
+        }
+
+        ul {
+            list-style-type: lower-roman;
+        }
+
+        /* Global */
+        body {
+            background-color: rgb(240 228 67);
+            font-family: Mystery Quest;
+            color: #000;
+            text-align: center;
+        }
