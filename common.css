@@ -126,3 +126,20 @@
             color: #000;
             text-align: center;
         }
+
+        .back-to-top {
+            position: static;
+            bottom: 20px;
+            right: 30px;
+            background-color: #2e450a;
+            color: #b2f04f;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /*Utility*/
+
+        html {
+            scroll-behavior: smooth;
+        }
