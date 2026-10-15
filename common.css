@@ -5,8 +5,16 @@
         h1 {
             font-family: Eater;
             text-align: center;
-            color: #2e450a;
+            color: #b2f04f;
             border-bottom: 1px solid;
+        }
+
+        .text-outline-shadow {
+            font-size: 40px;
+            font-weight: bold;
+            color: #b2f04f;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
         }
 
         h3 {
@@ -14,6 +22,14 @@
             color: #2e450a;
             border-color: #0d911d;
             border-style: inset;
+        }
+
+        header {
+            background-image: url(images/background\ image.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 300px;
         }
 
         /* Boxes & Images */

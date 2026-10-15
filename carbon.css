@@ -39,11 +39,26 @@
             background-color: #b2f04f;
         }
 
+        .back-to-top {
+            position: static;
+            bottom: 20px;
+            right: 30px;
+            background-color: #2e450a;
+            color: #b2f04f;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
         /* Optional utility class */
         .centered-header {
             text-align: center;
             box-shadow: 3px 3px;
             color: #8f4f25
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         /* Navigation */
